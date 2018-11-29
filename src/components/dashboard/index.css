@@ -1,0 +1,85 @@
+.add-company-card{
+    width: 100px;
+    height: 100px;
+    display: table;
+}
+
+.add-company-button-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.add-company-button {    
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 75px;
+    height: 75px;
+    outline: none;
+    border-radius: 100%;
+}
+
+.add-company-button img{
+    opacity: 0.5;
+    width: 65px;
+    height: 65px;
+}
+
+.add-company-button:hover {
+    outline: none;
+    transition: 0.5s;
+}
+
+.create-company-text{
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #555;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+        
+/* company card css */
+
+.card-container{
+    min-height: 200px;
+    position:relative;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.card-container:hover{
+    transition: 0.8s;
+    box-shadow: 0px 0px 10px 0px #777;
+}
+
+.card-content{
+    padding: 0px 15px 10px 15px;
+    font-size: 13px;
+    color: #777;
+}
+
+.card-footer{
+    position: absolute;
+    width: 100%;
+    background: #eaeaea;
+    bottom: 0px;
+    padding: 5px 15px 0px 15px;
+    margin-bottom: -10px;
+}
+
+.card-footer p{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-footer p span{
+    padding: 1px 15px 1px 15px;
+    background: #ccc;
+    border-radius: 14px;
+    float: right;
+}
